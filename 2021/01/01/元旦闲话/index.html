@@ -1,0 +1,785 @@
+<!--
+	作者：Sariay
+	时间：2018-09-25
+	描述：There may be a bug, but don't worry, QiLing(器灵) says that it can work normally!
+-->
+
+	<!DOCTYPE html>
+	<html class="scrollbar">
+		
+
+<head><meta name="generator" content="Hexo 3.9.0">
+	<meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+  <title>
+    
+      元旦闲话 | 米澤家
+    
+  </title>
+  <meta name="author" content="Kronos">
+  <meta name="keywords" content>
+  <meta name="description" content>
+	<!-- favicon -->
+  <link rel="shortcut icon" href="/Blog/img/favicon.ico">
+
+  <!-- css -->
+  <link rel="stylesheet" href="/Blog/css/style.css">
+<link rel="stylesheet" href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+
+    <!-- jquery -->
+	<script src="/Blog/js/jquery-2.1.1.min.js"></script>
+
+  <!-- leancloud -->
+  <script src="https://cdn1.lncld.net/static/js/av-core-mini-0.6.4.js"></script>
+<script src="/Blog/js/leancloud.js"></script>
+<link rel="stylesheet" href="/Blog/css/prism-tomorrow.css" type="text/css">
+<link rel="stylesheet" href="/Blog/css/prism-line-numbers.css" type="text/css"></head>
+	<body>
+		<!-- Preloader -->
+
+
+<!-- header -->
+<header class="fixbackground" data-img-mode="random" data-normal-src="/Blog/img/1.jpg" data-random-max="110" data-random-src="https://sariay.github.io/Random-img/">
+	<div class="mask">
+		<div class="h-header">
+			<div id="logo-S">
+				
+					<a href="/Blog/">
+						<img src="/Blog/img/logo.png" alt="Logo">
+					</a>
+				
+			</div>
+			<!-- Navigation in header(id="navigation-S") -->
+			<div id="navigation-S">
+				<ul>
+					
+						<li class="menu-home">
+							<a href="/Blog/" class="menu-item-home">主页</a>
+						</li>
+					
+						<li class="menu-archive">
+							<a href="/Blog/archives" class="menu-item-archive">归档</a>
+						</li>
+					
+						<li class="menu-categories">
+							<a href="/Blog/categories" class="menu-item-categories">分类</a>
+						</li>
+					
+						<li class="menu-tags">
+							<a href="/Blog/tags" class="menu-item-tags">标签</a>
+						</li>
+					
+						<li class="menu-about">
+							<a href="/Blog/about" class="menu-item-about">关于</a>
+						</li>
+					
+						<li class="menu-gallery">
+							<a href="/Blog/gallery" class="menu-item-gallery">相册</a>
+						</li>
+					
+
+					
+				</ul>			
+			</div>				
+		</div>
+
+		<div class="h-body">	
+			<!-- motto -->
+			
+				<div id="page-motto">
+					<p class="motto">
+						
+					</p>
+				</div>
+			
+
+			<div id="navigation-H">
+				<!-- Page title -->
+				<p>
+					
+						当前文章&nbsp;:&nbsp;《元旦闲话》
+					
+				</p>
+				<!-- Progress bar -->
+				<div id="progress-bar"></div>
+
+				<!-- Progress percent -->
+				<div id="progress-percentage">
+					<h1>0.0%</h1>
+				</div>
+			</div>
+		</div>
+		
+		<!-- others: such as time... -->			
+		<div class="h-footer">
+			<ul>
+				<li>
+					<a><i class="fa fa-camera-retro" onclick="changeHeaderBg()"></i>切换背景</a>
+				</li>
+				<li>
+					<a href="javascript:;" id="read-more"><i class="fa fa-angle-double-down"></i>继续阅读</a>
+				</li>
+				<li>
+					<a href="https://github.com/Sariay/hexo-theme-Annie" target="_blank"><i class="fa fa-download"></i>克隆主题</a>
+				</li>
+			</ul>
+		</div>
+		
+		<!-- This is only a demo, please go to "https://time.is" to set your city time! -->
+<style type="text/css">
+	.header-date {
+		position: absolute;
+		left: 40px;
+		bottom: 30px;
+		writing-mode: tb-rl;
+		font-size: 36px;
+	}	
+	.header-date a {
+		border-bottom: none;
+	}
+	@media only screen and (max-width: 768 ) {
+		.header-date {
+			position: absolute;
+			left: 40px;
+			bottom: 30px;
+			writing-mode: tb-rl;
+			font-size: 20px;
+		}			
+	}
+</style>
+<div class="header-date">
+	<a href="https://time.is/Beijing" id="time_is_link" rel="nofollow" ></a>
+	<span id="Beijing_z43d"></span>
+</div>
+<script src="//widget.time.is/zh.js"></script>
+<script>
+	time_is_widget.init({
+		Beijing_z43d:{
+			template:"DATE", 
+			date_format:"year年 monthname dnum日"
+		}
+	});
+</script>
+</header>
+
+<!-- Navigation in div(id="navigation-H") -->
+<a class="nav-trigger">
+	<span></span>
+</a>
+
+<nav class="nav-container" id="cd-nav">
+	<div class="nav-header">
+		<h3>Navigation</h3>
+		<a href="javascript:;" class="nav-close"></a>
+	</div>
+	<div class="nav-body">
+		<ul>
+			
+				<li class="menu-home">
+					<a href="/Blog/" class="menu-item-home">主页</a>
+				</li>
+			
+				<li class="menu-archive">
+					<a href="/Blog/archives" class="menu-item-archive">归档</a>
+				</li>
+			
+				<li class="menu-categories">
+					<a href="/Blog/categories" class="menu-item-categories">分类</a>
+				</li>
+			
+				<li class="menu-tags">
+					<a href="/Blog/tags" class="menu-item-tags">标签</a>
+				</li>
+			
+				<li class="menu-about">
+					<a href="/Blog/about" class="menu-item-about">关于</a>
+				</li>
+			
+				<li class="menu-gallery">
+					<a href="/Blog/gallery" class="menu-item-gallery">相册</a>
+				</li>
+			
+
+			
+		</ul>
+	</div>
+
+	<div class="nav-footer">
+		<ul>
+	
+		
+			<li>
+				<a href="https://github.com/sakronos" title="Github" target="_blank">
+					<i class="fa fa-github"></i>
+				</a>
+			</li>
+		
+		
+			<li>
+				<a href="http://github.com/" title="Weibo" target="_blank">
+					<i class="fa fa-weibo"></i>
+				</a>
+			</li>
+		
+		
+			<li>
+				<a href="mailto:vanillamochicake@yahoo.co.jp" title="Email" target="_blank">
+					<i class="fa fa-envelope-o"></i>
+				</a>
+			</li>
+		
+
+		
+			<li>
+				<a href="http://github.com/" title="QQ" target="_blank">
+					<i class="fa fa-qq"></i>
+				</a>
+			</li>
+		
+		
+			<li>
+				<a href="http://github.com/" title="Twitter" target="_blank">
+					<i class="fa fa-twitter"></i>
+				</a>
+			</li>
+		
+	 
+</ul>
+	</div>
+</nav>
+
+		
+		<!--main-->
+		<main>
+			<div class="layout-post">
+	
+	
+	<div class="article-title">
+		
+	<a href="/Blog/2021/01/01/元旦闲话/" itemprop="url">
+		元旦闲话
+	</a>
+
+	</div>
+
+	<div class="article-meta">
+		<span>
+			
+	发布于
+	<a href="/Blog/2021/01/01/元旦闲话/" itemprop="url">
+		<time datetime="2021-01-01T03:58:45.000Z" itemprop="datePublished">
+	  		2021-01-01
+	  </time>
+	</a> 
+
+	/
+	更新于
+	<a href="/Blog/2021/01/01/元旦闲话/" itemprop="url">
+		<time datetime="2021-01-01T03:58:45.000Z" itemprop="dateUpdated">
+	  		2021-01-14
+	  </time>
+	</a> 	
+
+		</span>
+		/
+		<span>
+			<i class="fa fa-tags"></i>
+			
+	
+		<a href="/Blog/tags/日志/" class=" ">
+			日志
+		</a>
+	
+		
+		</span>
+		/
+		
+
+    <span class="leancloud_visitors" id="/Blog/2021/01/01/元旦闲话/_visitors" data-url="/Blog/2021/01/01/元旦闲话/" data-title="元旦闲话">
+        热度
+        <i class="leancloud_visitors_count" id="leancloud_visitors_count">0</i>
+    </span>
+    
+    /
+
+
+
+    <span class="leancloud_likes" id="/Blog/2021/01/01/元旦闲话/_likes" data-url="/Blog/2021/01/01/元旦闲话/" data-title="元旦闲话" rel="unlike">
+        喜欢
+        <i class="fa fa-heart"></i>
+        <i class="leancloud_likes_count" id="leancloud_likes_count">0</i>
+    </span>
+
+	</div>
+
+	<div class="article-content" id="article-content">
+		<h1 id="Bye-2020-amp-amp-Hello-2021"><a href="#Bye-2020-amp-amp-Hello-2021" class="headerlink" title="Bye,2020 &amp;&amp; Hello, 2021"></a>Bye,2020 &amp;&amp; Hello, 2021</h1>	
+	</div>
+	
+	<div id="current-post-cover" data-scr="/Blog/img/post-cover/20210114.jpg"></div>
+
+	<!-- relate post, comment...-->
+	<div class="investment-container">
+		<div class="investment-header">
+			<div class="investment-title-1">
+				<div class="on">相关文章</div>
+				<div>评论</div>
+			</div>
+			<div class="investment-title-2">	            
+				
+	<span>
+		<a href="javascript: window.scrollTo(0, 0);">返回顶部</a>
+		
+			<a href="/Blog/2021/01/14/WordPowerMadeEasyMP3/" title="Word Power Made Easy MP3" rel="prev">
+				&laquo;上一篇
+			</a>
+		
+		
+			<a href="/Blog/2020/12/08/虚之少女游戏日志/" title="虚之少女游戏日志" rel="next">
+				下一篇&raquo;
+			</a>
+			
+	</span>
+      		
+			</div>	
+		</div>
+		
+		<div class="investment-content">
+			<div class="investment-content-list">
+				
+
+<div class="relate-post">
+	<ul>
+		
+				<li>
+					<div>
+						<a href="/Blog/2020/12/08/虚之少女游戏日志/" title="虚之少女游戏日志">
+							虚之少女游戏日志
+						</a>
+						<p>
+							虚之少女日记
+    
+12/8 (4h)时隔6个月，终于重新开始推本作了，大概是从游戏内时间12/11开始。
+推到游戏内时间12/19，真崎智之送惠梨回旅馆。
+今天推的主要是日常。值得注意的只有真崎智之出院、跑腿、惠梨来事务所找人碰...
+						</p>
+					</div>
+
+					<a href="/Blog/2020/12/08/虚之少女游戏日志/" title="虚之少女游戏日志">				
+						<img src="/Blog/img/post-cover/ev011.jpg" class="relateImg" alt="虚之少女游戏日志">
+					</a>
+				</li>											
+		
+		
+				<li>
+					<div>
+						<a href="/Blog/2020/12/07/菊次郎的夏天/" title="正男的暑假，更是菊次郎的夏天">
+							正男的暑假，更是菊次郎的夏天
+						</a>
+						<p>
+							正男的暑假，更是菊次郎的夏天
+    
+看完菊次郎的夏天，想马上写些什么，但还是磨磨唧唧了一阵子。终于，打开AM，播放着Summer，开始敲这段文字。
+在电影放到演职员表那一段时，我还是忍不住打开Bangumi＆豆瓣稍微扫了一眼。有人...
+						</p>
+					</div>
+
+					<a href="/Blog/2020/12/07/菊次郎的夏天/" title="正男的暑假，更是菊次郎的夏天">				
+						<img src="/Blog/img/post-cover/20201207.jpg" class="relateImg" alt="正男的暑假，更是菊次郎的夏天">
+					</a>
+				</li>											
+		
+		
+				<li>
+					<div>
+						<a href="/Blog/2020/08/11/看完-有顶天家族动画第一季/" title="看完_有顶天家族动画第一季">
+							看完_有顶天家族动画第一季
+						</a>
+						<p>
+							有顶天家族我看番时总是全盘接受该作的设定，时而因为不假思索地接受设定而放弃思考，时而纠结于一些鸡毛蒜皮的剧情上的问题，这大概是傻瓜的血脉使然。ps: 人家总一郎只是把这当口头禅/奉为狸生信条，你们四兄弟是真あほう啊
+「有顶天」- 来个...
+						</p>
+					</div>
+
+					<a href="/Blog/2020/08/11/看完-有顶天家族动画第一季/" title="看完_有顶天家族动画第一季">				
+						<img src="/Blog/img/post-cover/424.jpg" class="relateImg" alt="看完_有顶天家族动画第一季">
+					</a>
+				</li>											
+		
+		
+				<li>
+					<div>
+						<a href="/Blog/2019/03/10/natsume-movie/" title="看过 劇場版 夏目友人帳 ～うつせみに結ぶ～">
+							看过 劇場版 夏目友人帳 ～うつせみに結ぶ～
+						</a>
+						<p>
+							先吐槽一下自己Bangumi时间胶囊式的TITLE😆
+这场电影是和御姐一起去看的，顺便把生日给过了🤭夏目友人帐，是我初中时开始看的番剧，当时第四季已经完结了，也已经听蔡齐麟推荐了好久，关于永远不会变薄的友人帐🤦‍ 然后在我的一期...
+						</p>
+					</div>
+
+					<a href="/Blog/2019/03/10/natsume-movie/" title="看过 劇場版 夏目友人帳 ～うつせみに結ぶ～">				
+						<img src="/Blog/img/post-cover/310.jpg" class="relateImg" alt="看过 劇場版 夏目友人帳 ～うつせみに結ぶ～">
+					</a>
+				</li>											
+		
+		
+				<li>
+					<div>
+						<a href="/Blog/2021/01/14/WordPowerMadeEasyMP3/" title="Word Power Made Easy MP3">
+							Word Power Made Easy MP3
+						</a>
+						<p>
+							Word Power Made Easy MP3Session 1
+        
+            
+        
+        
+          var ap = new APlayer({
+          ...
+						</p>
+					</div>
+
+					<a href="/Blog/2021/01/14/WordPowerMadeEasyMP3/" title="Word Power Made Easy MP3">				
+						<img src="/Blog/img/post-cover/wordpowermadeeasy.jpg" class="relateImg" alt="Word Power Made Easy MP3">
+					</a>
+				</li>											
+		
+		
+				<li>
+					<div>
+						<a href="/Blog/2020/03/26/ToTheMoon评价/" title="写作推荐，读作不推荐---To The Moon测评">
+							写作推荐，读作不推荐---To The Moon测评
+						</a>
+						<p>
+							这个推荐仅仅是打给游戏里都有人吐槽重复的有点多的For River，没有打不推荐的理由仅仅是因为我个人性格上的懦弱。
+
+本文来自我的Steam测评
+
+写作推荐，读作不推荐————————————To The Moon测评这个推荐仅仅是...
+						</p>
+					</div>
+
+					<a href="/Blog/2020/03/26/ToTheMoon评价/" title="写作推荐，读作不推荐---To The Moon测评">				
+						<img src="/Blog/img/post-cover/to-the-moon-switch.jpg" class="relateImg" alt="写作推荐，读作不推荐---To The Moon测评">
+					</a>
+				</li>											
+		
+		
+				<li>
+					<div>
+						<a href="/Blog/2019/03/06/图片测试/" title="图片测试">
+							图片测试
+						</a>
+						<p>
+							图片测试
+琢磨了大概两天了，发现同时在本地&amp;网络上显示图片不是现在的我能做到的，于是放弃了这个打算，打算以后文章里的图片尽量用网络链接🔗（md，这个巨硬的emoji真丑）吧今天顺便解决了代码编辑器的字体问题，苹方真是太好看了...
+						</p>
+					</div>
+
+					<a href="/Blog/2019/03/06/图片测试/" title="图片测试">				
+						<img src="/Blog/img/post-cover/36.jpg" class="relateImg" alt="图片测试">
+					</a>
+				</li>											
+		
+		
+				<li>
+					<div>
+						<a href="/Blog/2019/03/03/日志/" title="日志">
+							日志
+						</a>
+						<p>
+							日志 Visual Studio Code Markdown的界面设置
+研究了下怎么设置Visual Studio Code的界面布局，发现setting.json里只能用相对位置，太坑了😂
+
+
+						</p>
+					</div>
+
+					<a href="/Blog/2019/03/03/日志/" title="日志">				
+						<img src="/Blog/img/post-cover/3.jpg" class="relateImg" alt="日志">
+					</a>
+				</li>											
+		
+		
+				<li>
+					<div>
+						<a href="/Blog/2019/02/13/hello-world/" title="Hello World">
+							Hello World
+						</a>
+						<p>
+							Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using ...
+						</p>
+					</div>
+
+					<a href="/Blog/2019/02/13/hello-world/" title="Hello World">				
+						<img src="/Blog/img/cart_cover.jpg" class="relateImg" alt="Hello World">
+					</a>
+				</li>											
+		
+		
+	</ul>
+</div>	
+			</div>
+			<div class="investment-content-list">
+				<div class="layout-comment">
+
+	
+
+		
+
+			<!-- I don't know 【表情】-->
+			
+		
+		
+	
+
+</div>
+			</div>
+		</div>	
+	</div>
+</div>
+
+
+
+	<!-- leancloud -->
+	<!--
+	时间：2018-11-27
+	描述：
+		文章访问量：visitors
+		文章喜欢量：likes	
+		文章排行榜：topNPost
+		其他得说明：
+			01-Cookie相关的函数 
+				https://blog.csdn.net/somehow1002/article/details/78511541（Author：somehow1002）
+			02-visitors相关的函数 
+				https://blog.csdn.net/u013553529/article/details/63357382（Author：爱博客大伯）
+				https://notes.doublemine.me/2015-10-21-为NexT主题添加文章阅读量统计功能.html（Author：夏末）
+			03-topNPost相关的函数
+				https://hoxis.github.io/hexo-next-read-rank.html（Author：hoxis）
+			04-likes相关的函数，
+				参考了01 & 02进行简单的设计与实现
+-->
+
+
+
+	<script>
+		var appid = 'QpTLC7WiWxYzIvmgVphmq3D5-gzGzoHsz',
+            appkey = 'eCDRIyiOPppTf20d0u80dGLd';	  
+        AnnieLeancloud(appid, appkey);         
+	</script>
+    
+
+
+ 
+
+<!-- show math formula -->
+
+
+
+<script>
+	//Refer to https://xinyo.org/archives/66226, thanks xinyo!
+	function codeCopy() {
+		var copyContainerId = 'copy-nav';
+						
+		$("pre").before(" <nav class=' " + copyContainerId + " '><i class='code-language'></i></nav> ");
+		
+		$('.' + copyContainerId).append("<i class='fa fa-clipboard copy-btn' aria-hidden='true'></i>");
+		
+		$('#article-content').find('pre').each( function () {
+			var language = $(this).children('code').attr('class').substr(9);//why 9? Need to check language?
+			$(this).prev().find('.code-language').text( language );	
+		});
+				
+		//为复制按钮添加click事件
+		$('.copy-btn').on("click", function() {
+			//初始化
+			$("textarea").remove("#targetId");
+			
+			//获取对应的代码
+			var codePre = $(this).parent().next(),
+				codeText = codePre[0].textContent,
+				target = document.createElement("textarea");
+			target.style.position = "absolute";
+			target.style.left = "-9999px";
+			target.style.top = "0";
+			target.id = "targetId";
+			codePre.append(target);
+			target.textContent = codeText;
+
+			//选中textarea内的代码
+			target.focus();
+			target.setSelectionRange(0, target.value.length);
+
+			// 复制选中的内容
+			document.execCommand("copy");
+			
+			//删除添加的节点
+			$("textarea").remove("#targetId");
+			
+			var thisCopied = $(this);
+			thisCopied.addClass('copy-status');	
+			setTimeout( function() {
+				thisCopied.removeClass('copy-status');
+			}, 2000)
+		});	
+	}
+	
+	if( $('.layout-post').length )	{
+		codeCopy();
+	}
+</script>
+
+
+<!-- TODO: There seems to be a bug when you close the post gallery! -->
+<link rel="stylesheet" href="/Blog/plugin/lightgallery/css/lightgallery.css">
+<script src="/Blog/plugin/lightgallery/js/jquery-1.11.0.min.js"></script>
+<script src="/Blog/plugin/lightgallery/js/lightgallery-all.min.js"></script>
+
+<script type="text/javascript">
+	var postTitle = $('.article-title a').text() ? $('.article-title a').text() : "No post title!";
+	$('.article-content img').each(function() {
+		var imgPath = $(this).attr('src'),
+			imgTitle = $(this).attr('alt') ? $(this).attr('alt') : "No image description!";
+		$(this).wrap('<div class="img-responsive" data-src="' + imgPath + '" data-responsive="' + imgPath + '" data-sub-html="<p>图片 ' + imgTitle + '</p><h4>文章' + postTitle + '</h4>"></div>');
+	});
+
+	$('.article-content').lightGallery({
+		mode: 'lg-slide',
+		selector: '.img-responsive',
+		share: false,
+		zoom: false,
+		download: false
+	});
+	//TODO：支持video
+</script>
+
+<!--
+	时间：2018-11-17
+	描述：
+		插件名称：katelog.min.js
+		插件作者：KELEN
+		插件来源: https://github.com/KELEN/katelog
+-->
+
+		
+
+		<div class="k-catelog-list" id="catelog-list" data-title="文章目录"></div>
+		<script src="/Blog/plugin/toc/katelog.min.js"></script>
+
+		
+	
+		</main>
+		
+		<!--footer-->
+		<footer>
+	<div class="social">
+		<ul>
+	
+		
+			<li>
+				<a href="https://github.com/sakronos" title="Github" target="_blank">
+					<i class="fa fa-github"></i>
+				</a>
+			</li>
+		
+		
+			<li>
+				<a href="http://github.com/" title="Weibo" target="_blank">
+					<i class="fa fa-weibo"></i>
+				</a>
+			</li>
+		
+		
+			<li>
+				<a href="mailto:vanillamochicake@yahoo.co.jp" title="Email" target="_blank">
+					<i class="fa fa-envelope-o"></i>
+				</a>
+			</li>
+		
+
+		
+			<li>
+				<a href="http://github.com/" title="QQ" target="_blank">
+					<i class="fa fa-qq"></i>
+				</a>
+			</li>
+		
+		
+			<li>
+				<a href="http://github.com/" title="Twitter" target="_blank">
+					<i class="fa fa-twitter"></i>
+				</a>
+			</li>
+		
+	 
+</ul>
+	</div>
+		
+	<div class="copyright">
+		<p>
+			 
+				&copy;2019 - 2021, content by Kronos. All Rights Reserved.
+			
+			
+			
+
+	<!-- busuanzi -->
+	<!-- busuanzi -->
+
+		
+	<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+	
+
+		<span id="busuanzi_container_page_pv">
+	  		本文总阅读量<span id="busuanzi_value_page_pv"></span>次
+		</span>
+
+	
+
+
+
+
+		</p>
+		<p>
+			<a href="http://hexo.io/" title="Hexo" target="_blank" rel="noopener">Hexo</a> Theme <a href="https://github.com/Sariay/hexo-theme-Annie" title="Annie" target="_blank" rel="noopener">Annie</a> by Sariay. 					
+		</p>
+	</div>		
+</footer>
+		
+    <!-- set '1' to show motto in all pages! -->
+
+	<script src="/Blog/js/motto.js"></script>
+	<script type="text/javascript">
+		$(".motto").html( getMingYanContent() );
+	</script>	
+
+
+
+
+
+
+    <script src="/Blog/js/love.js"></script>
+
+
+<!--back to top-->
+
+    
+	<div id="totop">
+  		<a href="javascript:;"  name="TOTOP" class="fa fa-arrow-up" ></a>
+	</div>
+	<div id="tobuttom">
+		<a href="javascript:;"  name="TOBUTTOM" class="fa fa-arrow-down" ></a>
+	</div>
+ 
+
+
+ 
+
+<script src="/Blog/js/vibrant.js"></script>
+<script src="/Blog/js/chinese.js"></script>
+<script src="/Blog/js/main.js"></script>
+	</body>
+	</html>

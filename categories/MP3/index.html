@@ -1,0 +1,611 @@
+<!--
+	作者：Sariay
+	时间：2018-09-25
+	描述：There may be a bug, but don't worry, QiLing(器灵) says that it can work normally!
+-->
+
+	<!DOCTYPE html>
+	<html class="scrollbar">
+		
+
+<head><meta name="generator" content="Hexo 3.9.0">
+	<meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+  <title>
+    
+      category: MP3 | 米澤家
+    
+  </title>
+  <meta name="author" content="Kronos">
+  <meta name="keywords" content>
+  <meta name="description" content>
+	<!-- favicon -->
+  <link rel="shortcut icon" href="/Blog/img/favicon.ico">
+
+  <!-- css -->
+  <link rel="stylesheet" href="/Blog/css/style.css">
+<link rel="stylesheet" href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+
+    <!-- jquery -->
+	<script src="/Blog/js/jquery-2.1.1.min.js"></script>
+
+  <!-- leancloud -->
+  <script src="https://cdn1.lncld.net/static/js/av-core-mini-0.6.4.js"></script>
+<script src="/Blog/js/leancloud.js"></script>
+<link rel="stylesheet" href="/Blog/css/prism-tomorrow.css" type="text/css">
+<link rel="stylesheet" href="/Blog/css/prism-line-numbers.css" type="text/css"></head>
+	<body>
+		<!-- Preloader -->
+
+
+<!-- header -->
+<header class="fixbackground" data-img-mode="random" data-normal-src="/Blog/img/1.jpg" data-random-max="110" data-random-src="https://sariay.github.io/Random-img/">
+	<div class="mask">
+		<div class="h-header">
+			<div id="logo-S">
+				
+					<a href="/Blog/">
+						<img src="/Blog/img/logo.png" alt="Logo">
+					</a>
+				
+			</div>
+			<!-- Navigation in header(id="navigation-S") -->
+			<div id="navigation-S">
+				<ul>
+					
+						<li class="menu-home">
+							<a href="/Blog/" class="menu-item-home">主页</a>
+						</li>
+					
+						<li class="menu-archive">
+							<a href="/Blog/archives" class="menu-item-archive">归档</a>
+						</li>
+					
+						<li class="menu-categories">
+							<a href="/Blog/categories" class="menu-item-categories">分类</a>
+						</li>
+					
+						<li class="menu-tags">
+							<a href="/Blog/tags" class="menu-item-tags">标签</a>
+						</li>
+					
+						<li class="menu-about">
+							<a href="/Blog/about" class="menu-item-about">关于</a>
+						</li>
+					
+						<li class="menu-gallery">
+							<a href="/Blog/gallery" class="menu-item-gallery">相册</a>
+						</li>
+					
+
+					
+				</ul>			
+			</div>				
+		</div>
+
+		<div class="h-body">	
+			<!-- motto -->
+			
+				<div id="page-motto">
+					<p class="motto">
+						
+					</p>
+				</div>
+			
+
+			<div id="navigation-H">
+				<!-- Page title -->
+				<p>
+					
+						分类
+					
+				</p>
+				<!-- Progress bar -->
+				<div id="progress-bar"></div>
+
+				<!-- Progress percent -->
+				<div id="progress-percentage">
+					<h1>0.0%</h1>
+				</div>
+			</div>
+		</div>
+		
+		<!-- others: such as time... -->			
+		<div class="h-footer">
+			<ul>
+				<li>
+					<a><i class="fa fa-camera-retro" onclick="changeHeaderBg()"></i>切换背景</a>
+				</li>
+				<li>
+					<a href="javascript:;" id="read-more"><i class="fa fa-angle-double-down"></i>继续阅读</a>
+				</li>
+				<li>
+					<a href="https://github.com/Sariay/hexo-theme-Annie" target="_blank"><i class="fa fa-download"></i>克隆主题</a>
+				</li>
+			</ul>
+		</div>
+		
+		<!-- This is only a demo, please go to "https://time.is" to set your city time! -->
+<style type="text/css">
+	.header-date {
+		position: absolute;
+		left: 40px;
+		bottom: 30px;
+		writing-mode: tb-rl;
+		font-size: 36px;
+	}	
+	.header-date a {
+		border-bottom: none;
+	}
+	@media only screen and (max-width: 768 ) {
+		.header-date {
+			position: absolute;
+			left: 40px;
+			bottom: 30px;
+			writing-mode: tb-rl;
+			font-size: 20px;
+		}			
+	}
+</style>
+<div class="header-date">
+	<a href="https://time.is/Beijing" id="time_is_link" rel="nofollow" ></a>
+	<span id="Beijing_z43d"></span>
+</div>
+<script src="//widget.time.is/zh.js"></script>
+<script>
+	time_is_widget.init({
+		Beijing_z43d:{
+			template:"DATE", 
+			date_format:"year年 monthname dnum日"
+		}
+	});
+</script>
+</header>
+
+<!-- Navigation in div(id="navigation-H") -->
+<a class="nav-trigger">
+	<span></span>
+</a>
+
+<nav class="nav-container" id="cd-nav">
+	<div class="nav-header">
+		<h3>Navigation</h3>
+		<a href="javascript:;" class="nav-close"></a>
+	</div>
+	<div class="nav-body">
+		<ul>
+			
+				<li class="menu-home">
+					<a href="/Blog/" class="menu-item-home">主页</a>
+				</li>
+			
+				<li class="menu-archive">
+					<a href="/Blog/archives" class="menu-item-archive">归档</a>
+				</li>
+			
+				<li class="menu-categories">
+					<a href="/Blog/categories" class="menu-item-categories">分类</a>
+				</li>
+			
+				<li class="menu-tags">
+					<a href="/Blog/tags" class="menu-item-tags">标签</a>
+				</li>
+			
+				<li class="menu-about">
+					<a href="/Blog/about" class="menu-item-about">关于</a>
+				</li>
+			
+				<li class="menu-gallery">
+					<a href="/Blog/gallery" class="menu-item-gallery">相册</a>
+				</li>
+			
+
+			
+		</ul>
+	</div>
+
+	<div class="nav-footer">
+		<ul>
+	
+		
+			<li>
+				<a href="https://github.com/sakronos" title="Github" target="_blank">
+					<i class="fa fa-github"></i>
+				</a>
+			</li>
+		
+		
+			<li>
+				<a href="http://github.com/" title="Weibo" target="_blank">
+					<i class="fa fa-weibo"></i>
+				</a>
+			</li>
+		
+		
+			<li>
+				<a href="mailto:vanillamochicake@yahoo.co.jp" title="Email" target="_blank">
+					<i class="fa fa-envelope-o"></i>
+				</a>
+			</li>
+		
+
+		
+			<li>
+				<a href="http://github.com/" title="QQ" target="_blank">
+					<i class="fa fa-qq"></i>
+				</a>
+			</li>
+		
+		
+			<li>
+				<a href="http://github.com/" title="Twitter" target="_blank">
+					<i class="fa fa-twitter"></i>
+				</a>
+			</li>
+		
+	 
+</ul>
+	</div>
+</nav>
+
+		
+		<!--main-->
+		<main>
+			<!--
+	时间：2018-11-08
+	描述：The archive module refers to 'https://1984n.win/archives-post/' & 'http://1900.live/one-theme/', include js、css. Relevant rights reserved by them! 
+-->
+<div class="layout-archive">
+    <div class="i-container">
+        <i class="fa fa-book">
+			
+				MP3 1 篇
+			
+		</i>
+    </div>
+
+    <!-- Archive by year, display in page( archive ) -->
+    <div id="layout-archive-year" style="display: 
+        
+        
+        <ul>
+            
+                <li>
+                    <a href="/Blog/2021/01/14/WordPowerMadeEasyMP3/">
+            			<em year="2021">
+                            01-14
+                        </em>
+        			    <span itemprop="name">
+                            Word Power Made Easy MP3
+                        </span>
+        			    
+                			<a href="/Blog/tags/书/" class="tag">
+                				书
+                			</a>
+                        
+                			<a href="/Blog/tags/配套音频/" class="tag">
+                				配套音频
+                			</a>
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/Blog/2021/01/01/元旦闲话/">
+            			<em year="2021">
+                            01-01
+                        </em>
+        			    <span itemprop="name">
+                            元旦闲话
+                        </span>
+        			    
+                			<a href="/Blog/tags/日志/" class="tag">
+                				日志
+                			</a>
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/Blog/2020/12/08/虚之少女游戏日志/">
+            			<em year="2020">
+                            12-08
+                        </em>
+        			    <span itemprop="name">
+                            虚之少女游戏日志
+                        </span>
+        			    
+                			<a href="/Blog/tags/日志/" class="tag">
+                				日志
+                			</a>
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/Blog/2020/12/07/菊次郎的夏天/">
+            			<em year="2020">
+                            12-07
+                        </em>
+        			    <span itemprop="name">
+                            正男的暑假，更是菊次郎的夏天
+                        </span>
+        			    
+                			<a href="/Blog/tags/Bangumi/" class="tag">
+                				Bangumi
+                			</a>
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/Blog/2020/08/11/看完-有顶天家族动画第一季/">
+            			<em year="2020">
+                            08-11
+                        </em>
+        			    <span itemprop="name">
+                            看完_有顶天家族动画第一季
+                        </span>
+        			    
+                			<a href="/Blog/tags/Bangumi/" class="tag">
+                				Bangumi
+                			</a>
+                        
+                			<a href="/Blog/tags/有顶天家族/" class="tag">
+                				有顶天家族
+                			</a>
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/Blog/2020/03/26/ToTheMoon评价/">
+            			<em year="2020">
+                            03-26
+                        </em>
+        			    <span itemprop="name">
+                            写作推荐，读作不推荐---To The Moon测评
+                        </span>
+        			    
+                			<a href="/Blog/tags/游戏测评/" class="tag">
+                				游戏测评
+                			</a>
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/Blog/2019/03/10/natsume-movie/">
+            			<em year="2019">
+                            03-10
+                        </em>
+        			    <span itemprop="name">
+                            看过 劇場版 夏目友人帳 ～うつせみに結ぶ～
+                        </span>
+        			    
+                			<a href="/Blog/tags/夏目友人帳/" class="tag">
+                				夏目友人帳
+                			</a>
+                        
+                			<a href="/Blog/tags/劇場版/" class="tag">
+                				劇場版
+                			</a>
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/Blog/2019/03/06/图片测试/">
+            			<em year="2019">
+                            03-06
+                        </em>
+        			    <span itemprop="name">
+                            图片测试
+                        </span>
+        			    
+                			<a href="/Blog/tags/测试用/" class="tag">
+                				测试用
+                			</a>
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/Blog/2019/03/03/日志/">
+            			<em year="2019">
+                            03-03
+                        </em>
+        			    <span itemprop="name">
+                            日志
+                        </span>
+        			    
+                			<a href="/Blog/tags/随笔/" class="tag">
+                				随笔
+                			</a>
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/Blog/2019/02/13/hello-world/">
+            			<em year="2019">
+                            02-13
+                        </em>
+        			    <span itemprop="name">
+                            Hello World
+                        </span>
+        			    
+                    </a>
+                </li>
+            
+        </ul>
+    </div>
+
+     <!-- Archive by month, called by page( categories, tags... ) -->
+    <div id="layout-archive-month" style="display: 
+         
+            block"> 
+        
+
+        
+        
+            
+
+            
+                
+                <h3 class="archive-year">
+                    <!-- <a href="/Blog/archives/2021/01"> -->
+                    <a>
+                        2021 - 01
+                    </a>
+                </h3>
+            
+
+            <ul>
+                <li>
+                    <a href="/Blog/2021/01/14/WordPowerMadeEasyMP3/">
+                        <em>
+                            01-14
+                        </em>
+                        <span itemprop="name">
+                            Word Power Made Easy MP3
+                        </span>
+                        
+                            <a href="/Blog/tags/书/" class="tag">
+                                书
+                            </a>
+                        
+                            <a href="/Blog/tags/配套音频/" class="tag">
+                                配套音频
+                            </a>
+                               
+                    </a>
+                </li>
+            </ul>
+        
+    </div>
+
+    
+        
+	
+
+    
+</div>
+		</main>
+		
+		<!--footer-->
+		<footer>
+	<div class="social">
+		<ul>
+	
+		
+			<li>
+				<a href="https://github.com/sakronos" title="Github" target="_blank">
+					<i class="fa fa-github"></i>
+				</a>
+			</li>
+		
+		
+			<li>
+				<a href="http://github.com/" title="Weibo" target="_blank">
+					<i class="fa fa-weibo"></i>
+				</a>
+			</li>
+		
+		
+			<li>
+				<a href="mailto:vanillamochicake@yahoo.co.jp" title="Email" target="_blank">
+					<i class="fa fa-envelope-o"></i>
+				</a>
+			</li>
+		
+
+		
+			<li>
+				<a href="http://github.com/" title="QQ" target="_blank">
+					<i class="fa fa-qq"></i>
+				</a>
+			</li>
+		
+		
+			<li>
+				<a href="http://github.com/" title="Twitter" target="_blank">
+					<i class="fa fa-twitter"></i>
+				</a>
+			</li>
+		
+	 
+</ul>
+	</div>
+		
+	<div class="copyright">
+		<p>
+			 
+				&copy;2019 - 2021, content by Kronos. All Rights Reserved.
+			
+			
+			
+
+	<!-- busuanzi -->
+	<!-- busuanzi -->
+
+		
+	<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+	
+
+		<span id="busuanzi_container_site_pv">
+	    	本站总访问量<span id="busuanzi_value_site_pv"></span>次
+		</span>
+
+		<span id="busuanzi_container_site_uv">
+	  		本站访客数<span id="busuanzi_value_site_uv"></span>人次
+		</span>
+		
+	
+
+
+
+
+		</p>
+		<p>
+			<a href="http://hexo.io/" title="Hexo" target="_blank" rel="noopener">Hexo</a> Theme <a href="https://github.com/Sariay/hexo-theme-Annie" title="Annie" target="_blank" rel="noopener">Annie</a> by Sariay. 					
+		</p>
+	</div>		
+</footer>
+		
+    <!-- set '1' to show motto in all pages! -->
+
+	<script src="/Blog/js/motto.js"></script>
+	<script type="text/javascript">
+		$(".motto").html( getMingYanContent() );
+	</script>	
+
+
+
+
+
+
+    <script src="/Blog/js/love.js"></script>
+
+
+<!--back to top-->
+
+    
+	<div id="totop">
+  		<a href="javascript:;"  name="TOTOP" class="fa fa-arrow-up" ></a>
+	</div>
+	<div id="tobuttom">
+		<a href="javascript:;"  name="TOBUTTOM" class="fa fa-arrow-down" ></a>
+	</div>
+ 
+
+
+ 
+
+<script src="/Blog/js/vibrant.js"></script>
+<script src="/Blog/js/chinese.js"></script>
+<script src="/Blog/js/main.js"></script>
+	</body>
+	</html>
